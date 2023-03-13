@@ -1,0 +1,25 @@
+body{
+    background:#F3AC3C;
+  }
+  div {
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    background: #254241;
+    border-radius: 40px 40px 0 40px;
+  }
+  .north{
+	top:40px;
+	left:160px;
+    transform:rotate(45deg);
+  }
+  .west{
+    transform: rotate(-45deg);
+    top:110px;
+    left:80px
+  }
+  .south{
+    transform: rotate(-135deg);
+    top:180px;
+    left:160px;
+  }
